@@ -52,3 +52,7 @@ docs/_build/
 
 # PyBuilder
 target/
+
+#Opdracht gevorderd programmeren
+*.swp
+*.un
