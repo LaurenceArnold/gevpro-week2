@@ -7,7 +7,7 @@ class Country:
         self.country=country
 
     def getCountry(self):
-		"""Returns the country"""
+        """Returns the country"""
         return self.country
 
     def __str__(self):

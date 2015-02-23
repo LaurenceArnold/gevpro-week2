@@ -5,17 +5,13 @@ import sys
 from country import *
 
 def main():
-    lijst=[]
+    countryList=[]
     with open('countries_list.txt') as in_f:
-        for line in in_f:
-            x = line.split('\n')
-            lijst.append(x)
+         for line in in_f:
+             x = line.split('\n')
+             countryList.append(x[0])    
 
-    lijst2=[]
-    for i in lijst:
-        lijst2.append(i[0])
-
-    for land in lijst2:
+    for land in countryList:
         land=Country(land)
         print(land)
 
